@@ -41,7 +41,7 @@ def runtime(func: Callable, data: list) -> float:
     return end - start
 
 if __name__ == "__main__":
-    N = 10_000
+    N = 1000
     test_cases = {
         "Already Sorted": list(range(N)),
         "Almost Sorted": list(range(1, N)) + [0],
